@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("pexel.jpg"); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h1{
+    padding-left: 500px;
+    word-spacing: 10px;
+}
+div{
+    float: right;
+    width: 300px;
+    border: 15px;
+    padding: 50px;
+    margin: 20px;
+}
+ul{
+    text-align: center;
+    display: inline-flex;
+    list-style: none;
+    color:darkblue;
+}
+li {
+    width: 100px;
+    margin: 10px;
+    padding: 15px;
+}
+a:visited{
+     text-decoration: none;
+     color:darkblue;
+}
+a:hover{
+    color:red;
+    text-decoration: underline;
+}
+a:active{
+    color: pink;
+    text-decoration: none;
+}
